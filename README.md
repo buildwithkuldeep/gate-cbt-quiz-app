@@ -1,3 +1,70 @@
+# 🚀 GATE CBT Quiz Application
+
+A **GATE-style Computer Based Test (CBT) Quiz Platform** built with **React**, **Vite**, and **Tailwind CSS**.  
+Designed to simulate the **real GATE examination interface** with a timer, question palette, result analysis, dark mode toggle, and reattempt flow.
+
+🌐 **Live Demo:** https://gate-cbt-quiz-app.netlify.app/  
+📁 **Repository:** https://github.com/buildwithkuldeep/gate-cbt-quiz-app
+
+---
+
+## ✨ Features
+
+### 🧠 Core Exam Functionality
+- Supports **MCQ, MSQ, and NAT** question types
+- **Countdown timer** with auto-submit
+- **Save & Next / Previous** navigation
+- Persistent answers during test
+- **Question palette** showing attempted, unattempted, and current questions
+
+### 📊 Results & Feedback
+- Score calculation
+- Correct / Wrong / Unattempted breakdown
+- Per-question review with:
+  - Your answer
+  - Correct answer
+  - Explanation
+- **Reattempt / Restart Test** functionality
+
+### 🎨 UI & UX
+- Clean, professional, exam-focused layout
+- **Global Dark Mode**
+- Classy card-based design
+- Easy to use on desktop screens
+
+### ⚙️ Architecture
+- JSON-driven questions (easy to update / extend)
+- Centralized state using `useReducer`
+- Modular reusable components
+- Ready for backend integration & authentication
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React + Vite  
+- **Styling:** Tailwind CSS  
+- **State Management:** useReducer, useState  
+- **Data Source:** Local JSON  
+- **Deployment:** Netlify
+
+---
+
+## ▶️ Getting Started (Local Development)
+
+Clone the repository:
+
+```bash
+git clone https://github.com/buildwithkuldeep/gate-cbt-quiz-app.git
+cd gate-cbt-quiz-app
+npm install
+npm run dev
+
+
+
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
