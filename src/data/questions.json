@@ -1,0 +1,23 @@
+{
+  "testName": "GATE CS - Operating Systems",
+  "duration": 1800,
+  "questions": [
+    {
+      "id": 1,
+      "type": "MCQ",
+      "question": "Which of the following is not an operating system?",
+      "options": ["Windows", "Linux", "Oracle", "MacOS"],
+      "correct": ["Oracle"],
+      "marks": 1,
+      "explanation": "Oracle is a database, not an OS."
+    },
+    {
+      "id": 2,
+      "type": "NAT",
+      "question": "How many process states are there in a basic OS model?",
+      "correct": ["5"],
+      "marks": 1,
+      "explanation": "New, Ready, Running, Waiting, Terminated."
+    }
+  ]
+}
