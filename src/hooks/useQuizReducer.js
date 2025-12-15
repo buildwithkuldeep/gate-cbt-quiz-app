@@ -24,7 +24,13 @@ export function quizReducer(state, action) {
       return {
         ...state,
         currentIndex: state.currentIndex - 1
-      };
+          };
+     case "JUMP_TO":
+      return {
+        ...state,
+        currentIndex: action.payload
+        };
+  
 
     default:
       return state;

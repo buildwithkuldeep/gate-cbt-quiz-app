@@ -1,23 +1,98 @@
 {
-  "testName": "GATE CS - Operating Systems",
-  "duration": 1800,
+  "testName": "GATE 2022 CS – Full Length Test",
+  "duration": 10800,
+  "markingScheme": {
+    "mcq_1": { "correct": 1, "negative": 0.33 },
+    "mcq_2": { "correct": 2, "negative": 0.66 },
+    "nat": { "correct": "full", "negative": 0 }
+  },
   "questions": [
     {
       "id": 1,
+      "section": "General Aptitude",
       "type": "MCQ",
-      "question": "Which of the following is not an operating system?",
-      "options": ["Windows", "Linux", "Oracle", "MacOS"],
-      "correct": ["Oracle"],
+      "question": "The _____ is too high for it to be considered _____.",
+      "options": ["fair / fare", "faer / fair", "fare / fare", "fare / fair"],
+      "correct": ["fare / fair"],
       "marks": 1,
-      "explanation": "Oracle is a database, not an OS."
+      "explanation": "Correct usage: fare (price) and fair (reasonable)."
     },
     {
       "id": 2,
-      "type": "NAT",
-      "question": "How many process states are there in a basic OS model?",
-      "correct": ["5"],
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "question": "Which one of the following is the area under the given curve for the interval [0,1]?",
+      "options": ["6/5", "5/6", "13/6", "6/13"],
+      "correct": ["13/6"],
       "marks": 1,
-      "explanation": "New, Ready, Running, Waiting, Terminated."
+      "explanation": "Computed by integrating the piecewise function over [0,1]."
+    },
+    {
+      "id": 3,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "question": "Which one of the following logical inferences is correct based on the passage about metrics and work culture?",
+      "options": [
+        "Metrics are useful in organizations with poor work culture",
+        "Metrics are useful in organizations with good work culture",
+        "Metrics are always counterproductive in good work culture",
+        "Metrics are never useful in good work culture"
+      ],
+      "correct": ["Metrics are useful in organizations with good work culture"],
+      "marks": 1,
+      "explanation": "Passage states metrics improve outcomes only in good work culture."
+    },
+    {
+      "id": 4,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "question": "What is the probability of getting an orange ball in the next draw?",
+      "options": ["1/2", "8/25", "19/50", "23/50"],
+      "correct": ["19/50"],
+      "marks": 1,
+      "explanation": "Based on conditional probability after replacement rules."
+    },
+    {
+      "id": 5,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "question": "Which one of the following statements is correct based on the triangle placement conditions?",
+      "options": [
+        "P cannot be placed at a corner",
+        "S cannot be placed at a corner",
+        "U cannot be placed at a mid-point",
+        "R cannot be placed at a corner"
+      ],
+      "correct": ["S cannot be placed at a corner"],
+      "marks": 1,
+      "explanation": "Derived from parallel and placement constraints."
+    },
+
+    {
+      "id": 6,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "question": "What is the least number of additional straight ropes needed to divide the land into four similar plots?",
+      "options": ["2", "4", "5", "3"],
+      "correct": ["3"],
+      "marks": 2,
+      "explanation": "Geometric partitioning using aligned poles."
+    },
+
+    {
+      "id": 7,
+      "section": "Computer Science",
+      "type": "MCQ",
+      "question": "Which one of the following statements is TRUE for all positive functions f(n)?",
+      "options": [
+        "f(n²) = Θ(f(n)²), when f(n) is polynomial",
+        "f(n²) = o(f(n)²)",
+        "f(n²) = O(f(n)²), when f(n) is exponential",
+        "f(n²) = Ω(f(n)²)"
+      ],
+      "correct": ["f(n²) = Ω(f(n)²)"],
+      "marks": 1,
+      "explanation": "Asymptotic lower bound always holds."
     }
   ]
 }
